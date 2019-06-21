@@ -1,6 +1,6 @@
 ## The Test Zone
 
-My JavaScript testing framework.
+My JavaScript testing framework. Developed as a part of Makers week 7 [News Summary Challenge](https://github.com/hives/news-summary-challenge) project.
 
 ### Installation
 
