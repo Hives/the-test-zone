@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Hivemind's Spec Runner</title>
+        <style>
+            html {
+                font-family: sans-serif;
+            }
+            #title {
+                font-size: 17px;
+                color: magenta;
+                font-weight: bold;
+                text-shadow: limegreen 3px 3px;
+            }
+            .pass {
+                color: limegreen;
+            }
+            .fail {
+                color: magenta;
+            }
+            #the-testing-zone {
+              margin: 50px;
+              padding: 20px;
+              border: 2px solid magenta;
+            }
+            #app {
+              padding: 20px;
+              border: 2px solid limegreen;
+            }
+        </style>
+    </head>
+    <body>
+        <pre id="title">
+  ________            ______          __     _____                  
+ /_  __/ /_  ___     /_  __/__  _____/ /_   /__  /  ____  ____  ___ 
+  / / / __ \/ _ \     / / / _ \/ ___/ __/     / /  / __ \/ __ \/ _ \
+ / / / / / /  __/    / / /  __(__  ) /_      / /__/ /_/ / / / /  __/
+/_/ /_/ /_/\___/    /_/  \___/____/\__/     /____/\____/_/ /_/\___/ 
+        </pre>
+
+        <div id="results"></div>
+
+        <!-- test framework -->
+        <script src="lib/the-test-zone.js"></script>
+
+        <!-- test files -->
+        <script src="spec/the-test-zone-spec.js"></script>
+    </body>
+</html>
